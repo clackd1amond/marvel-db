@@ -2,6 +2,17 @@
   "name": "marvel",
   "version": "0.1.0",
   "private": true,
+  "prettier": {
+    "singleQuote": true,
+    "useTabs": true,
+    "endOfLine": "auto",
+    "jsxSingleQuote": true,
+    "tabWidth": 3,
+    "printWidth": 120,
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "htmlWhitespaceSensitivity": "ignore"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
